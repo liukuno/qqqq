@@ -1,0 +1,37 @@
+*{
+	margin: 0;padding: 0;
+
+}
+
+.wrap{
+	width: 100%;
+	position: relative;
+}
+.yuan{
+	width: 50px;
+	height: 50px;
+	background: #ccc;
+	border-radius: 30px;
+	text-align: center;
+	line-height: 50px;
+	margin-top: 100px;
+	margin-left: 20px;
+	
+}
+.dong{
+	width: 200px;
+	height: 50px;
+	background: #f00;
+	border-radius: 30px;
+	position: absolute;
+	left: -160px;top: 0;
+	 /* display: none; */ 
+
+}
+.dong ul li{
+	float: left;
+	font-size: 18px;
+	padding-left: 15px;
+	padding-right: 10px;
+	line-height: 50px;
+}
